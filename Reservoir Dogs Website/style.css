@@ -1,0 +1,92 @@
+body {
+  background: #999;
+  font-family: gill sans, sans-serif;
+}
+
+h1 {
+  display: block;
+  background: darkred;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 76px;
+}
+
+h2 {
+  font-size:30px;
+  background: darkred;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-size: auto;
+}
+
+h3 {
+  font-size: 28px;
+  padding-left: 100px;
+}
+
+p {
+  font-size: 20px;
+  margin: auto;
+  color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+}
+
+a {
+  color: darkred;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 10px;
+  border-color: darkred;
+}
+
+.toplink {
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centertext {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#innav {
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+.centerlist {
+  font-size: 20px;
+  text-align: center;
+  list-style: inside;
+}
+
+#centertracklist {
+  text-align: center;
+  padding: 0px;
+}
+
+.imgfooter {
+  text-align: center;
+  padding: 0px;
+  font-size: 22px;
+}
+hr {
+  border-color: darkred;
+}
