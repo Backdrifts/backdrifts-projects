@@ -1,85 +1,90 @@
+header {
+  background: white;
+}
+
 body {
-  background: #999;
+  margin: 0;
+  background: black;
   font-family: gill sans, sans-serif;
 }
 
-h1 {
-  display: block;
-  background: darkred;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-family: monospace;
-  font-size: 76px;
-}
-
 h2 {
+  display: flex;
   font-size:30px;
   background: darkred;
+  width: 68%;
   color: white;
-  text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
   background-size: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
+  color: white;
   font-size: 28px;
-  padding-left: 100px;
+  text-align: center;
+  background: black;
+
 }
 
 p {
   font-size: 20px;
-  margin: auto;
   color: black;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 35px;
+  padding-right: 35px;
   text-align: justify;
+  width: 90%;
 }
 
 a {
   color: darkred;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 10px;
-  border-color: darkred;
+a:link {
+  text-decoration: none;
 }
 
-.toplink {
-  font-size: 18px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+a:hover {
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
 }
 
 .centertext {
+  color: white;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #innav {
-  font-size: 30px;
+  margin-top: 6%;
+  width: 30%;
+  display: flex;
+  float: left;
   list-style-type: none;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px;
+}
+
+.titleimg ul li{
+  font-size: 30px;
+  margin: 3%;
 }
 
 .centerlist {
+  border-radius: 10px;
   font-size: 20px;
-  text-align: center;
   list-style: inside;
+  background: white;
+  padding: 10px 25px 10px 0px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #centertracklist {
   text-align: center;
-  padding: 0px;
+  padding: 10px;
 }
 
 .imgfooter {
@@ -89,4 +94,55 @@ a {
 }
 hr {
   border-color: darkred;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.textbg {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: white;
+}
+
+.tracktitle {
+  width: 13%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleimg img{
+  display: block;
+  padding: 3%;
+  float: left;
+}
+
+.titleimg a {
+  color: white;
+}
+
+.reviewgif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: darkred;
+  border-width: 10px;
+}
+
+.reviewgifdiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+audio {
+  width: 30%;
+  display: block;
+  margin: 30px auto auto auto;
 }
